@@ -3,3 +3,12 @@ __pycache__/
 .venv/
 venv/
 *.log
+
+# Secretos: nunca al repositorio
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*
